@@ -1,4 +1,6 @@
 class Backer
+    #When Backer instance is initialized, it should be initilized with a @bscked_projects variables set to 
+    #an empty array. Instance of the Backer class should have an attr
     attr_reader :name, :backed_projects
    
     @@all = []
